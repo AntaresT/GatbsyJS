@@ -12,8 +12,15 @@ export const FlexDiv = styled.div`
 
    display: flex;
 
-   & > a{
-      margin: 3px;
+
+   & > div > div {
+
+      display: flex;
+    
+      & > a{
+         justify-content: space-between;
+         margin: 3px;
+      }
    }
 
 `

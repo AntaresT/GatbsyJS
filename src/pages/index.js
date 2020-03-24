@@ -6,8 +6,12 @@ import Container from './components/container/container'
 export default () => (
 
    <Container>
-      <Header headerText='Eu sou o Header' />
-      <h1>Hello world!</h1>
+      <Header headerText='Home' />
+      <br />
+      <div>
+         <h1>Construindo um site com Gatsby</h1>
+         <span>Eu gosto de batata</span>
+      </div>
    </Container>
 
 )

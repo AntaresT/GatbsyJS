@@ -5,5 +5,15 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: `Meu Estudo de Gatsby`,
+  },
+  plugins: [
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        path: `src/utils/typography`,
+      },
+    },
+  ],
 }
